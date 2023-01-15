@@ -1,0 +1,3 @@
+@mixin gridItem ($qty, $margin){ 
+  width: ((100% - (($qty - 1) * $margin)) / $qty);
+}

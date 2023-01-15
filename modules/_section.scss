@@ -1,0 +1,14 @@
+.container {
+  height: 100vh;
+  background-color: #f5f5f5;
+  .item {
+    display: flex;
+    border: 1px solid red;
+    @include gridItem(3 ,2%);
+    img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: fill;
+    }
+  }
+}
